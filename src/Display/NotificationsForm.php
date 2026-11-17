@@ -2,6 +2,7 @@
 namespace Starbug\Notifications\Admin\Display;
 
 use Starbug\Display\FormDisplay;
+use Starbug\Notifications\NotificationManagerInterface;
 
 class NotificationsForm extends FormDisplay {
   public $model = "notifications";

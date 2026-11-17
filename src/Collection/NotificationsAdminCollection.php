@@ -2,6 +2,7 @@
 namespace Starbug\Notifications\Admin\Collection;
 
 use Starbug\Admin\Db\Query\AdminCollection;
+use Starbug\Notifications\NotificationManagerInterface;
 use Starbug\Db\DatabaseInterface;
 
 class NotificationsAdminCollection extends AdminCollection {
